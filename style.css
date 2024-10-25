@@ -1,9 +1,7 @@
 .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100%;
+    
 }
 
 
@@ -21,8 +19,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 45%;
+    margin-top: 0%;
+    margin-left: 48%;
     height: 100%;
 }
 
@@ -33,5 +31,5 @@ h1 {
 img {
     height: 300px;
     width: 200px;
-    margin-left: 41%;
+    margin-left: 43%;
 }
