@@ -1,2 +1,0 @@
-# novelty-web
-

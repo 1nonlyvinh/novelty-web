@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> useless website </h1>
+    <h1> Useless Website </h1>
     <div class="flex-container">
-        <div><button onclick="myFunction()">Click me</button></div>
     </div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQbdmLOiK2jt3N6M0SZ8c5vQWKKVrYFJLWbz0VLvkIi-vfU7_:https://cdn-icons-png.flaticon.com/512/66/66783.png&s">
+
+<div><button onclick="untitledFunction1()">Click me</button></div>
 
 <div id="myDIV">
 
@@ -18,8 +20,29 @@
 function myFunction() {
     document.body.style.backgroundColor = "red";
 }
+
+var links = new Array();
+links[1] = "http://www.google.com/";
+links[2] = "http://www.yahoo.com/";
+links[3] = "http://www.excite.com/";
+links[5] = "https://www.mapcrunch.com/"
+links[6] = "https://www.nytimes.com/games/wordle/index.html";
+links[7] = "https://www.duotrigordle.com/";
+links[8] = "https://www.tuckahoeschools.org/";
+links[9] = "https://www.pinterest.com/";
+links[10] = "https://www.duolingo.com/";
+links[11] = "https://www.sleepopolis.com/calculators/sleep/";
+links[12] = "https://www.codecademy.com/;" 
+links[13] = "https://www.explore.org/livecams/cats/kitten-rescue-baby-kittens";
+links[14] = "https://www.eyebleach.me/"; 
+links[15] = "https://en.wikipedia.org/wiki/List_of_conspiracy_theories"
+
+
+function untitledFunction1() {
+  var i = Math.floor(Math.random() * links.length);
+  parent.location = links[i];
+  return false;
+}
 </script>
 </body>
 </html>
-
-
