@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    background-color: white;
+}
