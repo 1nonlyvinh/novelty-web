@@ -17,7 +17,7 @@ h1 {
 }
 
 html, body {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 0;
 }
 
@@ -29,8 +29,8 @@ button {
     margin-left: 48%;
 }
 
-img {
-    height: 100px;
+.arrow {
+    height: 200px;
     width: 200px;
     margin-left: 43%;
 }
@@ -84,4 +84,6 @@ a {
 
 .emoji {
     margin-right: 70%;
+    width: 40%;
+    height: 40%;
 }
