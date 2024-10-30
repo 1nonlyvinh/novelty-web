@@ -25,17 +25,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
     margin-left: 46%;
-    background-color: #646665; /* Green */
+    background-color: red;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     transition: transform .2s;
+    padding: 15px, 26px;
+    height: 50px;
+    width: 100px;
+    border: solid black 4px; 
+    margin-bottom: 40%;
 }
 
 .arrow {
@@ -107,4 +109,8 @@ a {
 
 button:hover {
     transition: transform .2s;
+}
+
+.cat {
+    margin-left: 75%;
 }
