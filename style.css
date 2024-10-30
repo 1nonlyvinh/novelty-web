@@ -1,7 +1,7 @@
 .info {
     width: 100%;
     height: 100%;
-    background-color: white; 
+    background-color:cyan;
     font-family: cursive;
     
 }
@@ -17,28 +17,29 @@ h1 {
 }
 
 html, body {
-    background-color: rgb(255, 255, 255);
     margin: 0;
+    background-color:rgb(5, 128, 243);
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 46%;
+    margin-top: 5%;
     background-color: red;
     border: none;
     color: white;
     text-align: center;
-    display: inline-block;
     font-size: 16px;
-    transition: transform .2s;
     padding: 15px, 26px;
     height: 50px;
     width: 100px;
     border: solid black 4px; 
-    margin-bottom: 40%;
-}
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 .arrow {
     height: 200px;
@@ -52,7 +53,7 @@ button {
     justify-content: flex-start; 
     width: 100%;
     height: 75px;
-    background-color: rgb(0, 217, 255);
+    background-color: cyan;
     align-items: center;
     padding: 15px;
     border: solid black 4px; 
@@ -84,6 +85,7 @@ a:hover {
 p {
     margin: auto; 
     margin-right: 10px;
+    background-color:rgb(5, 128, 243);
 }
 
 a {
@@ -98,8 +100,8 @@ a {
 
 .emoji {
     margin-right: 70%;
-    width: 40%;
-    height: 40%;
+    width: 10px;
+    height: 10px;
     transition: transform .2s;
 }
 
@@ -109,8 +111,27 @@ a {
 
 button:hover {
     transition: transform .2s;
+    background-color: rgb(0, 0, 0);
 }
 
 .cat {
     margin-left: 75%;
+}
+
+.nyan {
+    height: 100px;
+    width: 50px;
+    margin-top: 10%;
+    position: relative;
+    animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+    from {left: -100px;}
+    to {left: 1700px;}
+  }
+
+.source {
+    background-color: palevioletred;
+    border: solid black 5px;
 }
