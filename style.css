@@ -105,13 +105,20 @@ a {
     transition: transform .2s;
 }
 
-.emoji:hover {
-    transition: transform .2s;
+.emoji {
+    position: relative;
+    animation: secondmove 10s infinite;
 }
+
+@keyframes secondmove {
+    from {top: -100px;}
+    to {top: 170px;}
+  }
 
 button:hover {
     transition: transform .2s;
-    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 100px;
 }
 
 .cat {
@@ -134,4 +141,8 @@ button:hover {
 .source {
     background-color: palevioletred;
     border: solid black 5px;
+}
+
+p:hover {
+    color: white;
 }
